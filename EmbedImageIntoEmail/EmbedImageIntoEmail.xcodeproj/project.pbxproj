@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C86F904E138C2787001CA6BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F904D138C2787001CA6BA /* UIKit.framework */; };
+		C86F9050138C2787001CA6BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F904F138C2787001CA6BA /* Foundation.framework */; };
+		C86F9052138C2787001CA6BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F9051138C2787001CA6BA /* CoreGraphics.framework */; };
+		C86F9058138C2787001CA6BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C86F9056138C2787001CA6BA /* InfoPlist.strings */; };
+		C86F905B138C2787001CA6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F905A138C2787001CA6BA /* main.m */; };
+		C86F905E138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F905D138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m */; };
+		C86F9061138C2787001CA6BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86F905F138C2787001CA6BA /* MainWindow.xib */; };
+		C86F9064138C2787001CA6BA /* EmbedImageIntoEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */; };
+		C86F9067138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86F9065138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C86F9049138C2787001CA6BA /* EmbedImageIntoEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbedImageIntoEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86F904D138C2787001CA6BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C86F904F138C2787001CA6BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C86F9051138C2787001CA6BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C86F9055138C2787001CA6BA /* EmbedImageIntoEmail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmbedImageIntoEmail-Info.plist"; sourceTree = "<group>"; };
+		C86F9057138C2787001CA6BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C86F9059138C2787001CA6BA /* EmbedImageIntoEmail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmbedImageIntoEmail-Prefix.pch"; sourceTree = "<group>"; };
+		C86F905A138C2787001CA6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C86F905C138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbedImageIntoEmailAppDelegate.h; sourceTree = "<group>"; };
+		C86F905D138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbedImageIntoEmailAppDelegate.m; sourceTree = "<group>"; };
+		C86F9060138C2787001CA6BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C86F9062138C2787001CA6BA /* EmbedImageIntoEmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbedImageIntoEmailViewController.h; sourceTree = "<group>"; };
+		C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbedImageIntoEmailViewController.m; sourceTree = "<group>"; };
+		C86F9066138C2787001CA6BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmbedImageIntoEmailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C86F9046138C2787001CA6BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86F904E138C2787001CA6BA /* UIKit.framework in Frameworks */,
+				C86F9050138C2787001CA6BA /* Foundation.framework in Frameworks */,
+				C86F9052138C2787001CA6BA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C86F903E138C2787001CA6BA = {
+			isa = PBXGroup;
+			children = (
+				C86F9053138C2787001CA6BA /* EmbedImageIntoEmail */,
+				C86F904C138C2787001CA6BA /* Frameworks */,
+				C86F904A138C2787001CA6BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C86F904A138C2787001CA6BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C86F9049138C2787001CA6BA /* EmbedImageIntoEmail.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C86F904C138C2787001CA6BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C86F904D138C2787001CA6BA /* UIKit.framework */,
+				C86F904F138C2787001CA6BA /* Foundation.framework */,
+				C86F9051138C2787001CA6BA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C86F9053138C2787001CA6BA /* EmbedImageIntoEmail */ = {
+			isa = PBXGroup;
+			children = (
+				C86F905C138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.h */,
+				C86F905D138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m */,
+				C86F905F138C2787001CA6BA /* MainWindow.xib */,
+				C86F9062138C2787001CA6BA /* EmbedImageIntoEmailViewController.h */,
+				C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */,
+				C86F9065138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib */,
+				C86F9054138C2787001CA6BA /* Supporting Files */,
+			);
+			path = EmbedImageIntoEmail;
+			sourceTree = "<group>";
+		};
+		C86F9054138C2787001CA6BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C86F9055138C2787001CA6BA /* EmbedImageIntoEmail-Info.plist */,
+				C86F9056138C2787001CA6BA /* InfoPlist.strings */,
+				C86F9059138C2787001CA6BA /* EmbedImageIntoEmail-Prefix.pch */,
+				C86F905A138C2787001CA6BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C86F9048138C2787001CA6BA /* EmbedImageIntoEmail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86F906A138C2787001CA6BA /* Build configuration list for PBXNativeTarget "EmbedImageIntoEmail" */;
+			buildPhases = (
+				C86F9045138C2787001CA6BA /* Sources */,
+				C86F9046138C2787001CA6BA /* Frameworks */,
+				C86F9047138C2787001CA6BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmbedImageIntoEmail;
+			productName = EmbedImageIntoEmail;
+			productReference = C86F9049138C2787001CA6BA /* EmbedImageIntoEmail.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C86F9040138C2787001CA6BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = OneZeroWare;
+			};
+			buildConfigurationList = C86F9043138C2787001CA6BA /* Build configuration list for PBXProject "EmbedImageIntoEmail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C86F903E138C2787001CA6BA;
+			productRefGroup = C86F904A138C2787001CA6BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C86F9048138C2787001CA6BA /* EmbedImageIntoEmail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C86F9047138C2787001CA6BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86F9058138C2787001CA6BA /* InfoPlist.strings in Resources */,
+				C86F9061138C2787001CA6BA /* MainWindow.xib in Resources */,
+				C86F9067138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C86F9045138C2787001CA6BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C86F905B138C2787001CA6BA /* main.m in Sources */,
+				C86F905E138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m in Sources */,
+				C86F9064138C2787001CA6BA /* EmbedImageIntoEmailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C86F9056138C2787001CA6BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86F9057138C2787001CA6BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C86F905F138C2787001CA6BA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86F9060138C2787001CA6BA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C86F9065138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C86F9066138C2787001CA6BA /* en */,
+			);
+			name = EmbedImageIntoEmailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C86F9068138C2787001CA6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C86F9069138C2787001CA6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C86F906B138C2787001CA6BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbedImageIntoEmail/EmbedImageIntoEmail-Prefix.pch";
+				INFOPLIST_FILE = "EmbedImageIntoEmail/EmbedImageIntoEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C86F906C138C2787001CA6BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmbedImageIntoEmail/EmbedImageIntoEmail-Prefix.pch";
+				INFOPLIST_FILE = "EmbedImageIntoEmail/EmbedImageIntoEmail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C86F9043138C2787001CA6BA /* Build configuration list for PBXProject "EmbedImageIntoEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86F9068138C2787001CA6BA /* Debug */,
+				C86F9069138C2787001CA6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86F906A138C2787001CA6BA /* Build configuration list for PBXNativeTarget "EmbedImageIntoEmail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86F906B138C2787001CA6BA /* Debug */,
+				C86F906C138C2787001CA6BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C86F9040138C2787001CA6BA /* Project object */;
+}
