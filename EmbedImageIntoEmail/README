@@ -1,0 +1,43 @@
+Embed images into email
+
+
+One of the biggest problems of the MFMailComposerViewController, provided by Apple to allow us to send emails easily, is that it hasn't been updated since it first came out leaving us with very few (yet useful) methods to create and send an email.
+
+Since it hasn't been updated, the only way to add an attachment to the email is by calling the
+
+Ð addAttachmentData:mimeType:fileName: method on MFMailComposeViewController. The problem again is that the attachment will be posted at the bottom and not inline with the rest of the email body.
+
+ 
+
+For images, there is a simple solution =)
+
+Since the email body only accepts an NSString with HTML code we need to encode the image data into a base 64 encoded string, then use that string and add it to your email body.
+
+To encode the image you need to simply:
+
+
+- (NSString *)stringBase64EncodedImage:(UIImage *)image {
+
+NSData *imgData = UIImagePNGRepresentation(image);
+
+NSString *dataString = [imgData base64EncodedString];
+
+return dataString;
+
+}
+
+
+As you can see, base64EncodedString is not a method on NSData, but there is a category by Matt Gallagher that makes this possible.
+
+
+After encoding the image into a string is just a matter of simply use it in the HTML code to be used for the email body:
+
+UIImage *img = [UIImage imageNamed:@"testImage"];
+
+NSString *dataString = [self stringBase64EncodedImage:img];
+
+[emailBody appendFormat:@"<img  src="data:image/png;base64,%@" alt="" width="%d" height="%d" />"", dataString, img.size.width, img.size.height];
+
+ 
+
+A pretty good example can be found in inClass, when sharing a note via emai.
