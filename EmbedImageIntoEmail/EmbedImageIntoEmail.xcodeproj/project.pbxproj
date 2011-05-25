@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C86DA197138C43800027A0CB /* inClassWP.png in Resources */ = {isa = PBXBuildFile; fileRef = C86DA196138C43800027A0CB /* inClassWP.png */; };
+		C86DA1C0138C91CA0027A0CB /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C86DA1BF138C91C90027A0CB /* NSData+Base64.m */; };
+		C86DA1C2138C939A0027A0CB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86DA1C1138C939A0027A0CB /* MessageUI.framework */; };
 		C86F904E138C2787001CA6BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F904D138C2787001CA6BA /* UIKit.framework */; };
 		C86F9050138C2787001CA6BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F904F138C2787001CA6BA /* Foundation.framework */; };
 		C86F9052138C2787001CA6BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F9051138C2787001CA6BA /* CoreGraphics.framework */; };
@@ -16,9 +19,15 @@
 		C86F9061138C2787001CA6BA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86F905F138C2787001CA6BA /* MainWindow.xib */; };
 		C86F9064138C2787001CA6BA /* EmbedImageIntoEmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */; };
 		C86F9067138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C86F9065138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib */; };
+		C86F9070138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C86F906F138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.m */; };
+		C86F9098138C2E9D001CA6BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C86F9097138C2E9D001CA6BA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C86DA196138C43800027A0CB /* inClassWP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inClassWP.png; sourceTree = "<group>"; };
+		C86DA1BE138C91C90027A0CB /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		C86DA1BF138C91C90027A0CB /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		C86DA1C1138C939A0027A0CB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		C86F9049138C2787001CA6BA /* EmbedImageIntoEmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmbedImageIntoEmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86F904D138C2787001CA6BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C86F904F138C2787001CA6BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,6 +42,9 @@
 		C86F9062138C2787001CA6BA /* EmbedImageIntoEmailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmbedImageIntoEmailViewController.h; sourceTree = "<group>"; };
 		C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmbedImageIntoEmailViewController.m; sourceTree = "<group>"; };
 		C86F9066138C2787001CA6BA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EmbedImageIntoEmailViewController.xib; sourceTree = "<group>"; };
+		C86F906E138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoShotsOfCocoaLinkCell.h; sourceTree = "<group>"; };
+		C86F906F138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoShotsOfCocoaLinkCell.m; sourceTree = "<group>"; };
+		C86F9097138C2E9D001CA6BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86DA1C2138C939A0027A0CB /* MessageUI.framework in Frameworks */,
+				C86F9098138C2E9D001CA6BA /* QuartzCore.framework in Frameworks */,
 				C86F904E138C2787001CA6BA /* UIKit.framework in Frameworks */,
 				C86F9050138C2787001CA6BA /* Foundation.framework in Frameworks */,
 				C86F9052138C2787001CA6BA /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +83,8 @@
 		C86F904C138C2787001CA6BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C86DA1C1138C939A0027A0CB /* MessageUI.framework */,
+				C86F9097138C2E9D001CA6BA /* QuartzCore.framework */,
 				C86F904D138C2787001CA6BA /* UIKit.framework */,
 				C86F904F138C2787001CA6BA /* Foundation.framework */,
 				C86F9051138C2787001CA6BA /* CoreGraphics.framework */,
@@ -79,12 +95,15 @@
 		C86F9053138C2787001CA6BA /* EmbedImageIntoEmail */ = {
 			isa = PBXGroup;
 			children = (
+				C86F906D138C2C6A001CA6BA /* Two Shots Of Cocoa Support */,
 				C86F905C138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.h */,
 				C86F905D138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m */,
 				C86F905F138C2787001CA6BA /* MainWindow.xib */,
 				C86F9062138C2787001CA6BA /* EmbedImageIntoEmailViewController.h */,
 				C86F9063138C2787001CA6BA /* EmbedImageIntoEmailViewController.m */,
 				C86F9065138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib */,
+				C86DA1BE138C91C90027A0CB /* NSData+Base64.h */,
+				C86DA1BF138C91C90027A0CB /* NSData+Base64.m */,
 				C86F9054138C2787001CA6BA /* Supporting Files */,
 			);
 			path = EmbedImageIntoEmail;
@@ -93,12 +112,22 @@
 		C86F9054138C2787001CA6BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C86DA196138C43800027A0CB /* inClassWP.png */,
 				C86F9055138C2787001CA6BA /* EmbedImageIntoEmail-Info.plist */,
 				C86F9056138C2787001CA6BA /* InfoPlist.strings */,
 				C86F9059138C2787001CA6BA /* EmbedImageIntoEmail-Prefix.pch */,
 				C86F905A138C2787001CA6BA /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C86F906D138C2C6A001CA6BA /* Two Shots Of Cocoa Support */ = {
+			isa = PBXGroup;
+			children = (
+				C86F906E138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.h */,
+				C86F906F138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.m */,
+			);
+			name = "Two Shots Of Cocoa Support";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +183,7 @@
 				C86F9058138C2787001CA6BA /* InfoPlist.strings in Resources */,
 				C86F9061138C2787001CA6BA /* MainWindow.xib in Resources */,
 				C86F9067138C2787001CA6BA /* EmbedImageIntoEmailViewController.xib in Resources */,
+				C86DA197138C43800027A0CB /* inClassWP.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +197,8 @@
 				C86F905B138C2787001CA6BA /* main.m in Sources */,
 				C86F905E138C2787001CA6BA /* EmbedImageIntoEmailAppDelegate.m in Sources */,
 				C86F9064138C2787001CA6BA /* EmbedImageIntoEmailViewController.m in Sources */,
+				C86F9070138C2C93001CA6BA /* TwoShotsOfCocoaLinkCell.m in Sources */,
+				C86DA1C0138C91CA0027A0CB /* NSData+Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -221,7 +253,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -279,6 +311,7 @@
 				C86F906C138C2787001CA6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

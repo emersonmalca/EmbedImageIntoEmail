@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface EmbedImageIntoEmailViewController : UIViewController {
-    
+@class TwoShotsOfCocoaLinkCell;
+
+@interface EmbedImageIntoEmailViewController : UIViewController <MFMailComposeViewControllerDelegate> {
+    TwoShotsOfCocoaLinkCell *linkCell;
 }
+
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+@property (nonatomic, retain) IBOutlet UIButton *mainBtn;
+
+- (IBAction)emailImage;
+- (void)showMailComposer;
 
 @end
